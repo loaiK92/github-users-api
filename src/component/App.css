@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand");
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+}
+
+.noResult {
+  color: #333;
+  font-size: 2.3em;
+  padding-top: 3%;
+  letter-spacing: 1px;
+}

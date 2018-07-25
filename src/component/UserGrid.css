@@ -1,0 +1,45 @@
+.usergrid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card {
+  border: 1px solid #ccc;
+  padding: 1% 1.5%;
+  margin: 1.5%;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: -1px 1px 10px #ccc, 1px -1px 10px #ccc;
+  transition: all 0.2s linear;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: -3px 3px 14px rgba(0, 0, 0, 0.3), 3px -3px 14px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+  width: 150px;
+  height: 150px;
+}
+
+.card div h2 {
+  padding-top: 9%;
+  letter-spacing: 1px;
+  font-weight: lighter;
+  font-size: 1.7vw;
+}
+
+@media (max-width: 900px) {
+  .card img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 550px) {
+  .card img {
+    width: 50px;
+    height: 50px;
+  }
+}
